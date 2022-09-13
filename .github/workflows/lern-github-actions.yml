@@ -11,4 +11,4 @@ jobs:
   check--version:
     runs-on: ubuntu-latest
     steps:
-      - run: npm --version
+      - run: java --version
