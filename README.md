@@ -21,3 +21,12 @@ There you will find a sample file with the following statements:
 3. The jobs to be executed.
 4. The operating system it will be using 
 5. The steps with their corresponding `action`/`command` to be executed on the virtual environment.
+
+## Watch the Action in action
+
+In order to see the Actions running, follow these steps: 
+
+1. In your local repository, make any changes to any of the files in this project and push those changes to `remote`/`origin`.
+2. Navigate to the GitHub remote repository website.
+3. Create a Pull Request for your branch and point it to `master`
+4. Watch the Pull Request form or click on the the `Actions` tab.
