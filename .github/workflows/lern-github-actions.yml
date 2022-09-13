@@ -20,4 +20,4 @@ jobs:
         run: npm install -g express
 
       - name: List all dependencies
-        run: npm ls
+        run: npm list -g
