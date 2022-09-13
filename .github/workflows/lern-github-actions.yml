@@ -6,7 +6,7 @@ on:
     branches: [master]
 
 jobs:
-  check-nodejs-version:
+  setup-nodejs-express:
     runs-on: ubuntu-latest
 
     steps:
