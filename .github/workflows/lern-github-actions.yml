@@ -1,14 +1,23 @@
 name: learn-github-actions
-on: push
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
 jobs:
-  check-bats-version:
+  check-nodejs-version:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: npm install -g bats
-      - run: bats -v
-  check--version:
-    runs-on: ubuntu-latest
-    steps:
-      - run: java --version
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Check NodeJS version
+        run: npm --version
+
+      - name: Install Express
+        run: npm install -g express
+
+      - name: List all dependencies
+        run: npm ls
