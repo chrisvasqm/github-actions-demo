@@ -8,8 +8,7 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-  check-nodejs-version:
+  check--version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - run: npm --version
