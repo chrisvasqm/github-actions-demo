@@ -22,7 +22,7 @@ There you will find a sample file with the following statements:
 4. The operating system it will be using 
 5. The steps with their corresponding `action`/`command` to be executed on the virtual environment.
 
-## Watch the Action in action
+## Watch the Actions in action
 
 In order to see the Actions running, follow these steps: 
 
